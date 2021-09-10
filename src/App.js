@@ -4,6 +4,7 @@ import UseReducerHook from "./hooks/usereducer";
 import UseRefHook from "./hooks/useref";
 import UseImperativeHandleHook from "./hooks/useimperativehandle";
 import UseContextHook from "./hooks/usecontext";
+import UseMemoHook from "./hooks/usememo";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <UseRefHook />
       <UseImperativeHandleHook />
       <UseContextHook />
+      <UseMemoHook />
     </div>
   );
 }
